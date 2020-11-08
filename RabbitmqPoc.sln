@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqPoc", "RabbitmqPoc\RabbitmqPoc.csproj", "{384FE832-7B21-4B4B-9555-551ACFBAB77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{76FBA26D-0D54-433E-BDBE-B14F366D4769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{0C99EFCF-60B1-4BAA-8BA6-2D43B9E91EC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{384FE832-7B21-4B4B-9555-551ACFBAB77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384FE832-7B21-4B4B-9555-551ACFBAB77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384FE832-7B21-4B4B-9555-551ACFBAB77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384FE832-7B21-4B4B-9555-551ACFBAB77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FBA26D-0D54-433E-BDBE-B14F366D4769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FBA26D-0D54-433E-BDBE-B14F366D4769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FBA26D-0D54-433E-BDBE-B14F366D4769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FBA26D-0D54-433E-BDBE-B14F366D4769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C99EFCF-60B1-4BAA-8BA6-2D43B9E91EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C99EFCF-60B1-4BAA-8BA6-2D43B9E91EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C99EFCF-60B1-4BAA-8BA6-2D43B9E91EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C99EFCF-60B1-4BAA-8BA6-2D43B9E91EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB1A823E-98DE-4F97-9EC7-D998E24F412F}
+	EndGlobalSection
+EndGlobal
