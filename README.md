@@ -1,0 +1,2 @@
+# RabbitmqPoc
+Poc Rabbitmq
